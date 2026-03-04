@@ -109,5 +109,37 @@ Configurable: All sensitive data externalized to .env
 | Teams meeting       | Mocked   | Generates realistic teams.microsoft.com links                 |
 | Email notifications | Mocked   | Console output (easily swap for SendGrid/Mailgun)             |
 
+## The runnable demo (CLI or simple web UI is fine)  
 
+This is CLI output demo:
 
+```
+
+@AslauAlexandru ➜ /workspaces/Dongzhou-Tech-Internship (main) $ uv run main.py Stripe 'ML Platform'
+🚀 OLLAMA Outreach: Stripe (ML Platform)
+💻 100% FREE / OFFLINE
+
+✅ Ollama ready: 1 models
+   Using: mistral
+📂 Resuming: campaign_stripe.json
+🔍 Searching Director at Stripe (ML Platform)
+✅ Found: Sarah Chen
+accept my connection
+📝 LinkedIn message (60 chars):
+   Hi Sarah Chen, impressed by your ML Platform work at Stripe....
+🚀 [MOCK] Sending via LinkedIn API...
+✅ Connection sent!
+⏳ [MOCK] Waiting for acceptance (2h 15m)...
+✓ Accepted!
+a📨 Follow-up (60 chars):
+   Hi Sarah Chen, impressed by your ML Platform work at Stripe....
+🚀 [MOCK] Sending follow-up...
+✅ Follow-up sent!
+⏳ [MOCK] Waiting for reply...
+✓ Reply: 'Yes, happy to chat next week!'
+🔗 Teams meeting: https://teams.microsoft.com/l/meetup-20260307T0108/Stripe_MLPlatform
+🎉 Outreach COMPLETED!
+
+🎉 SUCCESS - Zero cost!
+
+```
