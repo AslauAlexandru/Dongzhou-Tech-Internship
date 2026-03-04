@@ -80,8 +80,11 @@ OLLAMA_MODEL=mistral uv run main.py Google "Search" # OLLAMA_MODEL=mistral uv ru
 **Architecture & Workflow**:
 
 INITIALIZE -> FIND_DECISION_MAKER -> SEND_CONNECTION -> WAIT_ACCEPTANCE
-         |
-         ^
+
+        | 
+        to
+        |  
+
 FOLLOWUP -> WAIT_REPLY -> CREATE_TEAMS -> COMPLETED
 
 
