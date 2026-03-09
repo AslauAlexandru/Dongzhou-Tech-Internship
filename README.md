@@ -59,6 +59,18 @@ Then update ```.env```:
 OLLAMA_MODEL=mistral
 ```
 
+or
+
+
+```
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=mistral
+```
+
+
+
+
+
 Running It:
 
 ```
