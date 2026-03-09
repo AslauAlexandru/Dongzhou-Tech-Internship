@@ -115,7 +115,7 @@ Configurable: All sensitive data externalized to .env
 
 ## The runnable demo (CLI or simple web UI is fine)  
 
-This is CLI output demo:
+This is CLI output demo for ```uv run main.py Stripe 'ML Platform'```:
 
 ```
 
@@ -147,3 +147,9 @@ a📨 Follow-up (60 chars):
 🎉 SUCCESS - Zero cost!
 
 ```
+
+
+**Important**: This is not a perfect project (and demo).
+
+
+
